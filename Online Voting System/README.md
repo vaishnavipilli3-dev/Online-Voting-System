@@ -1,20 +1,31 @@
-# Secure Online Voting System
+# 🗳️ Online Voting Management System
 
-A web-based application for conducting elections and polls securely, transparently, and efficiently.
+## 📌 About the Project
 
-## Features
+The Online Voting Management System is a web-based application designed to provide a simple and efficient platform for conducting online elections and polls.
+
+## ✨ Features
+
 - Voter registration and login
 - OTP-based authentication
 - One-vote-per-user enforcement
-- Admin panel for results and reset
+- Admin panel for managing results
 - Real-time results dashboard
+- Vote tracking using browser LocalStorage
 
-## Tech Stack
+## 🛠️ Technologies Used
+
 - HTML
 - CSS
-- JavaScript (LocalStorage)
+- JavaScript
+- LocalStorage
 
-## Setup
-1. Clone the repository
-2. Open `index.html` in a browser
-3. Register as a voter or login as admin
+## 📂 Project Structure
+
+```text
+Online Voting System/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
